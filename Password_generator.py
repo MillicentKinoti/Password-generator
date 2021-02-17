@@ -9,7 +9,7 @@ import string
 def get_random_password():
     letters_of_the_password=int(input("Enter the number of letters in your password: "))
     numbers_of_the_password=int(input("Enter the number of numbers in your password: "))
-    symbols_of_the_password=int(input("Enter the number of symbols in your password: "))
+    symbols_of_the_password=int(input("Enter the number of symbols in your password: ")) 
 
     letters_pass= ''.join(random.choice(string.ascii_letters) for i in range(letters_of_the_password))
     numbers_pass= ''.join(random.choice(string.digits) for i in range(numbers_of_the_password))
